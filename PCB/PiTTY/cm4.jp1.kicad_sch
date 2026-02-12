@@ -1,0 +1,6256 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4c82f24e-732c-4fce-9e47-cc562104b972")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_ARGB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_ARGB"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, anode/red/green/blue"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_ARGB_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_ARGB_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_ARGB_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ORANGE_PI_CM4:ORANGE_PI_CM4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -33.02 67.31 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ORANGE_PI_CM4"
+				(at -33.02 -66.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ORANGE_PI_CM4:MODULE_ORANGE_PI_CM4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Orange Pi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "v1.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "Orange Pi CM4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Orange Pi Compute Module 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Orange Pi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ORANGE_PI_CM4_1_0"
+				(rectangle
+					(start -33.02 -63.5)
+					(end 33.02 66.04)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -38.1 63.5 0)
+					(length 5.08)
+					(name "GND_JP1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 60.96 0)
+					(length 5.08)
+					(name "PHY0_MDI_3+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 58.42 0)
+					(length 5.08)
+					(name "PHY0_MDI_3-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 55.88 0)
+					(length 5.08)
+					(name "GND_JP1_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 53.34 0)
+					(length 5.08)
+					(name "PHY0_MDI_2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 50.8 0)
+					(length 5.08)
+					(name "PHY0_MDI_2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 48.26 0)
+					(length 5.08)
+					(name "GND_JP1_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 45.72 0)
+					(length 5.08)
+					(name "PHY0_LED2/CFG_LDO1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 43.18 0)
+					(length 5.08)
+					(name "PHY0_LED1/CFG_LDO0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 40.64 0)
+					(length 5.08)
+					(name "PHY0_LED0/CFG_EXT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 38.1 0)
+					(length 5.08)
+					(name "DIY_LED"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 35.56 0)
+					(length 5.08)
+					(name "GND_JP1_23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 33.02 0)
+					(length 5.08)
+					(name "GPIO3_D1/I2S1_SDO_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 30.48 0)
+					(length 5.08)
+					(name "GPIO3_D2/I2S1_SDI_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 27.94 0)
+					(length 5.08)
+					(name "GPIO3_D5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 25.4 0)
+					(length 5.08)
+					(name "GPIO4_C0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 22.86 0)
+					(length 5.08)
+					(name "GND_JP1_33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 20.32 0)
+					(length 5.08)
+					(name "GPIO1_A1/I2C3_SCL_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 17.78 0)
+					(length 5.08)
+					(name "GPIO4_A7/SPI3_CS1_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 15.24 0)
+					(length 5.08)
+					(name "GPIO4_A6/SPI3_CS0_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 12.7 0)
+					(length 5.08)
+					(name "GPIO4_A4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 10.16 0)
+					(length 5.08)
+					(name "GND_JP1_43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 7.62 0)
+					(length 5.08)
+					(name "GPIO4_A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 5.08 0)
+					(length 5.08)
+					(name "GPIO4_A3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 2.54 0)
+					(length 5.08)
+					(name "GPIO3_C7/I2S1_SCLK_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 0 0)
+					(length 5.08)
+					(name "GPIO0_D0/UART2_RX_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -2.54 0)
+					(length 5.08)
+					(name "GND_JP1_53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -5.08 0)
+					(length 5.08)
+					(name "GPIO0_D1/UART2_TX_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at -38.1 -7.62 0)
+					(length 5.08)
+					(name "SDMMC0_CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -10.16 0)
+					(length 5.08)
+					(name "GND_JP1_59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -12.7 0)
+					(length 5.08)
+					(name "SDMMC0_D3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -15.24 0)
+					(length 5.08)
+					(name "SDMMC0_D0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_63"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -17.78 0)
+					(length 5.08)
+					(name "GND_JP1_65"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_65"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -20.32 0)
+					(length 5.08)
+					(name "SDMMC0_D1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_67"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -22.86 0)
+					(length 5.08)
+					(name "SDMMC0_D2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_69"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -25.4 0)
+					(length 5.08)
+					(name "GND_JP1_71"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_71"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -38.1 -27.94 0)
+					(length 5.08)
+					(name "RESERVED_JP1_73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -30.48 0)
+					(length 5.08)
+					(name "SD_PWR_ON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_75"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -33.02 0)
+					(length 5.08)
+					(name "VBUS_JP1_77"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_77"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -35.56 0)
+					(length 5.08)
+					(name "VBUS_JP1_79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -38.1 0)
+					(length 5.08)
+					(name "VBUS_JP1_81"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_81"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -40.64 0)
+					(length 5.08)
+					(name "VBUS_JP1_83"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_83"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -43.18 0)
+					(length 5.08)
+					(name "VBUS_JP1_85"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_85"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -45.72 0)
+					(length 5.08)
+					(name "VBUS_JP1_87"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_87"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 -48.26 0)
+					(length 5.08)
+					(name "~{WL_DIS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_89"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 -50.8 0)
+					(length 5.08)
+					(name "~{BT_DIS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_91"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 -53.34 0)
+					(length 5.08)
+					(name "BOOT-SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_93"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -55.88 0)
+					(length 5.08)
+					(name "WORK_LED"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_95"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 -58.42 0)
+					(length 5.08)
+					(name "CAMERA_PDN_L"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_97"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 -60.96 0)
+					(length 5.08)
+					(name "PMIC_PWRON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_99"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 63.5 180)
+					(length 5.08)
+					(name "GND_JP1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 60.96 180)
+					(length 5.08)
+					(name "PHY0_MDI_1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 58.42 180)
+					(length 5.08)
+					(name "PHY0_MDI_1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 55.88 180)
+					(length 5.08)
+					(name "GND_JP1_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 53.34 180)
+					(length 5.08)
+					(name "PHY0_MDI_0-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 50.8 180)
+					(length 5.08)
+					(name "PHY0_MDI_0+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 48.26 180)
+					(length 5.08)
+					(name "GND_JP1_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 38.1 45.72 180)
+					(length 5.08)
+					(name "RESERVED_JP1_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 38.1 43.18 180)
+					(length 5.08)
+					(name "RESERVED_JP1_18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 38.1 40.64 180)
+					(length 5.08)
+					(name "RESERVED_JP1_20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 38.1 180)
+					(length 5.08)
+					(name "GND_JP1_22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 35.56 180)
+					(length 5.08)
+					(name "GPIO3_D3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 33.02 180)
+					(length 5.08)
+					(name "GPIO3_D0/I2S1_LRCK_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 30.48 180)
+					(length 5.08)
+					(name "GPIO3_D7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 27.94 180)
+					(length 5.08)
+					(name "GPIO3_D4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 25.4 180)
+					(length 5.08)
+					(name "GND_JP1_32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 22.86 180)
+					(length 5.08)
+					(name "GPIO4_A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 20.32 180)
+					(length 5.08)
+					(name "GPIO1_A0/I2C3_SDA_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 17.78 180)
+					(length 5.08)
+					(name "GPIO4_B3/SPI3_CLK_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 15.24 180)
+					(length 5.08)
+					(name "GPIO4_B0/SPI3_MISO_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 12.7 180)
+					(length 5.08)
+					(name "GND_JP1_42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 10.16 180)
+					(length 5.08)
+					(name "GPIO4_B2/SPI3_MOSI_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 7.62 180)
+					(length 5.08)
+					(name "GPIO4_A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 5.08 180)
+					(length 5.08)
+					(name "GPIO4_A0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 2.54 180)
+					(length 5.08)
+					(name "GPIO3_C6/I2S1_MCLK_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "GND_JP1_52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "GPIO4_C3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -5.08 180)
+					(length 5.08)
+					(name "GPIO4_B5/I2C2_SCL_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "GPIO4_B4/I2C2_SDA_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -10.16 180)
+					(length 5.08)
+					(name "GND_JP1_60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -12.7 180)
+					(length 5.08)
+					(name "SDMMC0_CMD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 38.1 -15.24 180)
+					(length 5.08)
+					(name "RESERVED_JP1_64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -17.78 180)
+					(length 5.08)
+					(name "GND_JP1_66"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_66"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -20.32 180)
+					(length 5.08)
+					(name "SW_RECOVERY"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_68"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -22.86 180)
+					(length 5.08)
+					(name "SARADC_VIN1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_70"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -25.4 180)
+					(length 5.08)
+					(name "GPIO0_C6/PWM7_IR"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_72"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -27.94 180)
+					(length 5.08)
+					(name "GND_JP1_74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -30.48 180)
+					(length 5.08)
+					(name "SDMMC0_DET_L"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_76"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -33.02 180)
+					(length 5.08)
+					(name "VCCIO6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_78"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 -35.56 180)
+					(length 5.08)
+					(name "I2C1_SCL_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_80"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -38.1 180)
+					(length 5.08)
+					(name "I2C1_SDA_M0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_82"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -40.64 180)
+					(length 5.08)
+					(name "VCC_3V3_JP1_84"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_84"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -43.18 180)
+					(length 5.08)
+					(name "VCC_3V3_JP1_86"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_86"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -45.72 180)
+					(length 5.08)
+					(name "VCC_1V8_JP1_88"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_88"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -48.26 180)
+					(length 5.08)
+					(name "VCC_1V8_JP1_90"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_90"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -50.8 180)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_92"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -53.34 180)
+					(length 5.08)
+					(name "SARADC_VIN3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_94"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -55.88 180)
+					(length 5.08)
+					(name "SARADC_VIN2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_96"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -58.42 180)
+					(length 5.08)
+					(name "GND_JP1_98"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_98"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -60.96 180)
+					(length 5.08)
+					(name "~{EXTRST}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_100"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ORANGE_PI_CM4_2_0"
+				(rectangle
+					(start -33.02 -63.5)
+					(end 33.02 66.04)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -38.1 63.5 0)
+					(length 5.08)
+					(name "USB_OTG0_ID"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 60.96 0)
+					(length 5.08)
+					(name "USB_OTG0_DM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 58.42 0)
+					(length 5.08)
+					(name "USB_OTG0_DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 55.88 0)
+					(length 5.08)
+					(name "GND_JP2_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 53.34 0)
+					(length 5.08)
+					(name "~{PCIE20_PERST_3V3_L}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -38.1 50.8 0)
+					(length 5.08)
+					(name "RESERVED_JP2_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 48.26 0)
+					(length 5.08)
+					(name "GND_JP2_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 45.72 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D0N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 43.18 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D0P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 40.64 0)
+					(length 5.08)
+					(name "GND_JP2_19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 38.1 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D1N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 35.56 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D1P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 33.02 0)
+					(length 5.08)
+					(name "GND_JP2_25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -38.1 30.48 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX_CLK0N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -38.1 27.94 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX_CLK0P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 25.4 0)
+					(length 5.08)
+					(name "GND_JP2_31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 22.86 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D2N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 20.32 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D2P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 17.78 0)
+					(length 5.08)
+					(name "GND_JP2_37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 15.24 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D3N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -38.1 12.7 0)
+					(length 5.08)
+					(name "MIPI_CSI_RX0_D3P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 10.16 0)
+					(length 5.08)
+					(name "EDP_TX_D3P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -38.1 7.62 0)
+					(length 5.08)
+					(name "EDP_SDA/I2C4_SDA_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -38.1 5.08 0)
+					(length 5.08)
+					(name "EDP_SCL/I2C4_SCL_M1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 2.54 0)
+					(length 5.08)
+					(name "EDP_TX_D3N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 0 0)
+					(length 5.08)
+					(name "HDMI_CEC_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -2.54 0)
+					(length 5.08)
+					(name "HDMI_TX_HPD_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -5.08 0)
+					(length 5.08)
+					(name "GND_JP2_55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -7.62 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX0_D0N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -10.16 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX0_D0P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -12.7 0)
+					(length 5.08)
+					(name "GND_JP2_61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -15.24 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX0_D1N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_63"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -17.78 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX0_D1P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_65"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -20.32 0)
+					(length 5.08)
+					(name "GND_JP2_67"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_67"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at -38.1 -22.86 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX0_CLKN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_69"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at -38.1 -25.4 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX0_CLKP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_71"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -27.94 0)
+					(length 5.08)
+					(name "GND_JP2_73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -30.48 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D0N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_75"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -33.02 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D0P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_77"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -35.56 0)
+					(length 5.08)
+					(name "GND_JP2_79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -38.1 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D1N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_81"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -40.64 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D1P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_83"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -43.18 0)
+					(length 5.08)
+					(name "GND_JP2_85"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_85"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at -38.1 -45.72 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_CLKN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_87"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at -38.1 -48.26 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_CLKP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_89"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -50.8 0)
+					(length 5.08)
+					(name "GND_JP2_91"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_91"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -53.34 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D2N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_93"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -55.88 0)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D2P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_95"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -38.1 -58.42 0)
+					(length 5.08)
+					(name "GND_JP2_97"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_97"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -38.1 -60.96 0)
+					(length 5.08)
+					(name "HDMI_TXDDC_SDA_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_99"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 63.5 180)
+					(length 5.08)
+					(name "~{PCIE20_CLKREQ_3V3_L}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 60.96 180)
+					(length 5.08)
+					(name "~{PCIE20_WAKE_3V3_L}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 38.1 58.42 180)
+					(length 5.08)
+					(name "RESERVED_JP2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 55.88 180)
+					(length 5.08)
+					(name "GND_JP2_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 53.34 180)
+					(length 5.08)
+					(name "PCIE20_REFCLKP_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 50.8 180)
+					(length 5.08)
+					(name "PCIE20_REFCLKP_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 48.26 180)
+					(length 5.08)
+					(name "GND_JP2_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 45.72 180)
+					(length 5.08)
+					(name "PCIE20_RXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 43.18 180)
+					(length 5.08)
+					(name "PCIE20_RXN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 40.64 180)
+					(length 5.08)
+					(name "GND_JP2_20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 38.1 180)
+					(length 5.08)
+					(name "PCIE20_TXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 35.56 180)
+					(length 5.08)
+					(name "PCIE20_TXN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 33.02 180)
+					(length 5.08)
+					(name "GND_JP2_26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 30.48 180)
+					(length 5.08)
+					(name "MIPI_CSI_RX1_D2N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 27.94 180)
+					(length 5.08)
+					(name "MIPI_CSI_RX1_D2P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 25.4 180)
+					(length 5.08)
+					(name "GND_JP2_32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 22.86 180)
+					(length 5.08)
+					(name "MIPI_CSI_RX1_D3N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 20.32 180)
+					(length 5.08)
+					(name "MIPI_CSI_RX1_D3P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 17.78 180)
+					(length 5.08)
+					(name "GND_JP2_38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 38.1 15.24 180)
+					(length 5.08)
+					(name "MIPI_CSI_RX_CLK1N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 38.1 12.7 180)
+					(length 5.08)
+					(name "MIPI_CSI_RX_CLK1P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 10.16 180)
+					(length 5.08)
+					(name "GND_JP2_44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 7.62 180)
+					(length 5.08)
+					(name "EDP_TX_D2P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 5.08 180)
+					(length 5.08)
+					(name "EDP_TX_D2N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 2.54 180)
+					(length 5.08)
+					(name "GND_JP2_50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "EDP_TX_D1P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "EDP_TX_D1N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -5.08 180)
+					(length 5.08)
+					(name "GND_JP2_56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "EDP_TX_D0P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -10.16 180)
+					(length 5.08)
+					(name "EDP_TX_D0N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -12.7 180)
+					(length 5.08)
+					(name "GND_JP2_62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -15.24 180)
+					(length 5.08)
+					(name "EDP_TX_AUXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -17.78 180)
+					(length 5.08)
+					(name "EDP_TX_AUXN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_66"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -20.32 180)
+					(length 5.08)
+					(name "GND_JP2_68"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_68"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -22.86 180)
+					(length 5.08)
+					(name "HDMI_TX2P_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_70"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -25.4 180)
+					(length 5.08)
+					(name "HDMI_TX2N_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_72"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -27.94 180)
+					(length 5.08)
+					(name "GND_JP2_74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -30.48 180)
+					(length 5.08)
+					(name "HDMI_TX1P_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_76"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -33.02 180)
+					(length 5.08)
+					(name "HDMI_TX1N_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_78"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -35.56 180)
+					(length 5.08)
+					(name "GND_JP2_80"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_80"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -38.1 180)
+					(length 5.08)
+					(name "HDMI_TX0P_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_82"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -40.64 180)
+					(length 5.08)
+					(name "HDMI_TX0N_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_84"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -43.18 180)
+					(length 5.08)
+					(name "GND_JP2_86"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_86"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 -45.72 180)
+					(length 5.08)
+					(name "HDMI_TXCLKP_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_88"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 -48.26 180)
+					(length 5.08)
+					(name "HDMI_TXCLKN_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_90"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -50.8 180)
+					(length 5.08)
+					(name "GND_JP2_92"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_92"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -53.34 180)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D3N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_94"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -55.88 180)
+					(length 5.08)
+					(name "MIPI_DSI_TX1_D3P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_96"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -58.42 180)
+					(length 5.08)
+					(name "GND_JP2_98"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_98"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 -60.96 180)
+					(length 5.08)
+					(name "HDMI_TXDDC_SCL_PORT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP2_100"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ORANGE_PI_CM4_3_0"
+				(rectangle
+					(start -25.4 -15.24)
+					(end 25.4 17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -30.48 15.24 0)
+					(length 5.08)
+					(name "GND_JP3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 12.7 0)
+					(length 5.08)
+					(name "USB2_HOST3_DM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 10.16 0)
+					(length 5.08)
+					(name "USB2_HOST3_DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 7.62 0)
+					(length 5.08)
+					(name "GND_JP3_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 5.08 0)
+					(length 5.08)
+					(name "USB2_HOST2_DM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 2.54 0)
+					(length 5.08)
+					(name "USB2_HOST2_DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 0 0)
+					(length 5.08)
+					(name "GND_JP3_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 -2.54 0)
+					(length 5.08)
+					(name "HP_DET_L"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 -5.08 0)
+					(length 5.08)
+					(name "GND_JP3_17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -7.62 0)
+					(length 5.08)
+					(name "USB3_HOST1_DM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -10.16 0)
+					(length 5.08)
+					(name "USB3_HOST1_DP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 -12.7 0)
+					(length 5.08)
+					(name "GND_JP3_23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 15.24 180)
+					(length 5.08)
+					(name "GND_JP3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 12.7 180)
+					(length 5.08)
+					(name "HPR_OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 10.16 180)
+					(length 5.08)
+					(name "HPL_OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 7.62 180)
+					(length 5.08)
+					(name "HP_SNS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 5.08 180)
+					(length 5.08)
+					(name "MIC1_IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 2.54 180)
+					(length 5.08)
+					(name "MIC2_IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "GND_JP3_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "USB3_HOST1_SSTXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "USB3_HOST1_SSTXN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "GND_JP3_20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 -10.16 180)
+					(length 5.08)
+					(name "USB3_HOST1_SSRXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "USB3_HOST1_SSRXN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP3_24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 217.17 73.66) (xy 217.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ba44c8-b2dc-4042-ad46-0d4e9d334555")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151709cb-2453-4dca-b960-a3a1e8cfc60d")
+	)
+	(wire
+		(pts
+			(xy 102.87 52.07) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abc62a0-c5bf-4b62-b586-e62558cd6cc4")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 195.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcf66b3-a4da-4476-8675-3e7f5120d8b3")
+	)
+	(wire
+		(pts
+			(xy 194.31 68.58) (xy 207.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24887660-6718-425e-bc81-877c9fbe5ce5")
+	)
+	(wire
+		(pts
+			(xy 91.44 54.61) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f19aa62-6cc7-4e95-a139-117182ec8e92")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47af42a9-83dc-4a8f-a5f6-630a08c408c0")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4acb1f3c-089c-45e7-9337-b493eacd9fb7")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573a3f7d-40f8-4a90-bca0-a4f1c99e79c7")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 102.87 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6360b11c-cf34-4a1c-80b9-5cbf484e6ca2")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e9966d-b925-4510-b979-917c994af93c")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78520832-c1b0-4965-a5a0-2a6b2769491a")
+	)
+	(wire
+		(pts
+			(xy 217.17 125.73) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc95edb-a981-41ae-8023-75826ecfc12b")
+	)
+	(wire
+		(pts
+			(xy 63.5 118.11) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80323693-a282-4058-9f82-cd2806d40d68")
+	)
+	(wire
+		(pts
+			(xy 63.5 68.58) (xy 63.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8354c1d2-ddfd-4386-89d7-f6a66fbf7359")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88562b40-fd0f-4fcf-985e-a6ce197f1636")
+	)
+	(wire
+		(pts
+			(xy 195.58 73.66) (xy 207.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaab431e-07b4-4b0c-b5bd-3b50e818bfb7")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb85073-3fa4-4e3a-9128-8b12c792f9d4")
+	)
+	(wire
+		(pts
+			(xy 90.17 68.58) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3ee0f7-75ff-4276-b7b2-773aebd64505")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9b4194-f3f0-4546-92b7-a8ab5d0c7e05")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 194.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8433297-7425-4e0a-8e73-655115520810")
+	)
+	(wire
+		(pts
+			(xy 196.85 78.74) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfedec6a-d9f4-47ce-9fce-bc12dab7b2d6")
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 266.7 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19726647-6a1a-4ba8-a858-b93bed9672f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.5557 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 266.7 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d01155bb-6f70-4237-a87f-3a8f7e3435cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.5557 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 212.09 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21ae4aa7-f14c-47f3-8c93-23ff8db9c8c2")
+		(property "Reference" "D1"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-L1T2_LUMILEDS"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b16a0e71-ddc9-49d9-932b-ebf323e1b1e4")
+		)
+		(pin "2"
+			(uuid "f7d1c6ea-dac6-4704-a385-d98c78d5880c")
+		)
+		(pin "1"
+			(uuid "2aa564b6-a2c6-4407-96ab-4eee23f1be1d")
+		)
+		(pin "4"
+			(uuid "8af7b532-8f1a-437a-98c9-c3efce842aff")
+		)
+		(instances
+			(project ""
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f/892c3491-aa3a-45f3-9012-b55ce4b202e9"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 264.16 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b9b89c-2254-460d-9135-1f455755bf70")
+		(property "Reference" "J1"
+			(at 264.795 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 264.795 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 264.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a53efdc8-79c8-466e-a26e-fd8ff29cbb47")
+		)
+		(pin "1"
+			(uuid "d5a91b2f-8cd7-49cc-80ee-7cde96479117")
+		)
+		(instances
+			(project ""
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f/892c3491-aa3a-45f3-9012-b55ce4b202e9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ARGB")
+		(at 68.58 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac6fc98-03e7-4c8c-94d1-28e309c665b0")
+		(property "Reference" "D2"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ARGB"
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-L1T2_LUMILEDS"
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, anode/red/green/blue"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6496c4c0-c0ab-40b3-936a-e7ec5218994f")
+		)
+		(pin "2"
+			(uuid "d9a6498f-c6ef-4abe-b209-2f1b29b0f031")
+		)
+		(pin "1"
+			(uuid "ea3bc97d-b4bd-45c3-b09b-9ca669479836")
+		)
+		(pin "4"
+			(uuid "00b26b49-9786-4dd0-b073-1d64e54373ee")
+		)
+		(instances
+			(project "PiTTY"
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f/892c3491-aa3a-45f3-9012-b55ce4b202e9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ORANGE_PI_CM4:ORANGE_PI_CM4")
+		(at 140.97 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfe8295-c4aa-4d90-8740-2a5f42b19b5c")
+		(property "Reference" "U1"
+			(at 140.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ORANGE_PI_CM4"
+			(at 140.97 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ORANGE_PI_CM4:MODULE_ORANGE_PI_CM4"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Orange Pi"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "v1.2"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "Orange Pi CM4"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Orange Pi Compute Module 4"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Orange Pi"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "JP1_64"
+			(uuid "8aa9941f-98db-4804-bd4b-5b15ff4e26e6")
+		)
+		(pin "JP1_6"
+			(uuid "69878367-b2bc-4b6a-86e5-898b2f55c8a4")
+		)
+		(pin "JP2_5"
+			(uuid "7d5ba708-c6f1-4503-99b2-b8f7c8de0729")
+		)
+		(pin "JP1_50"
+			(uuid "b085d2ba-370e-4ead-99dd-1aa9fc3a1a38")
+		)
+		(pin "JP1_73"
+			(uuid "25e04a71-0b13-4774-89ce-35c8fb402a1d")
+		)
+		(pin "JP1_54"
+			(uuid "fe6b2329-bfa4-4aff-8ba1-74b7f2f19e31")
+		)
+		(pin "JP1_26"
+			(uuid "3f488c46-76a6-4188-99e9-37c45efc8108")
+		)
+		(pin "JP3_12"
+			(uuid "1e2c6dd7-9fa8-4e1b-bc1b-812f2ec18e4e")
+		)
+		(pin "JP1_60"
+			(uuid "3d2d6b99-2492-42a6-afc6-06f9e12701ac")
+		)
+		(pin "JP1_32"
+			(uuid "b1ec71a5-c826-4a3a-aeac-f262b82a26ef")
+		)
+		(pin "JP1_71"
+			(uuid "f506e39a-e036-4d5a-b1b6-d3bf20fb3610")
+		)
+		(pin "JP1_75"
+			(uuid "b34eddfb-62ee-46e4-9928-2dfd704715e9")
+		)
+		(pin "JP1_2"
+			(uuid "9ff2b1ff-11d0-4c8d-9010-f0b6320d925d")
+		)
+		(pin "JP2_70"
+			(uuid "c39dfa81-40ca-4f83-b55b-f187155179ad")
+		)
+		(pin "JP3_20"
+			(uuid "b1f1dc9d-9218-4ae2-b04f-43fa86f5daf1")
+		)
+		(pin "JP1_83"
+			(uuid "07c54be8-f06c-41ca-9f59-64726ea0f4e5")
+		)
+		(pin "JP3_24"
+			(uuid "17920265-60d7-4fdd-853e-7afc5cfe2916")
+		)
+		(pin "JP1_25"
+			(uuid "02bdefc0-1fde-4b4a-bca0-145f4d33b597")
+		)
+		(pin "JP2_69"
+			(uuid "7fdeec01-adcb-42c4-8b56-fffdfa812e59")
+		)
+		(pin "JP2_87"
+			(uuid "b5340b3d-2f72-4a58-90cb-017ebb354753")
+		)
+		(pin "JP3_18"
+			(uuid "a2bfd384-ac1e-4fb9-bf33-3318717a04a6")
+		)
+		(pin "JP1_94"
+			(uuid "f0455034-d81f-4e3e-8244-b41fd7ce370f")
+		)
+		(pin "JP3_3"
+			(uuid "aef98386-6f71-439c-87a4-8a03f09ea3e9")
+		)
+		(pin "JP3_14"
+			(uuid "e2d33f2a-8875-4d12-a852-498b6f0bd21d")
+		)
+		(pin "JP1_68"
+			(uuid "9deb3c30-8ebc-4b9d-a0c2-c0f7c40107a5")
+		)
+		(pin "JP2_36"
+			(uuid "5f086f76-0eff-45da-ad57-b765822c5b69")
+		)
+		(pin "JP2_74"
+			(uuid "081f4162-562f-43ea-a082-1d2ca466cf75")
+		)
+		(pin "JP2_30"
+			(uuid "6af49ffd-e5c9-477d-b79c-d2bb5489e337")
+		)
+		(pin "JP2_19"
+			(uuid "aba92047-d871-409e-a400-4e8d328f6dbf")
+		)
+		(pin "JP2_23"
+			(uuid "a88acdd9-c6e0-4f1a-ab92-49fe11c00313")
+		)
+		(pin "JP1_52"
+			(uuid "17467512-129d-4c90-aa4f-8e11f26b53de")
+		)
+		(pin "JP2_75"
+			(uuid "7e99ab3b-071a-44eb-bc16-5efc525b7f29")
+		)
+		(pin "JP3_4"
+			(uuid "fbc12841-f413-422a-8b5a-99a22c43a288")
+		)
+		(pin "JP2_18"
+			(uuid "d986ad46-bca7-443c-bf78-a1149e7be129")
+		)
+		(pin "JP2_54"
+			(uuid "8c48aa23-555e-4b3d-b814-ab1a19efb964")
+		)
+		(pin "JP2_95"
+			(uuid "f6f68df2-6923-431d-9c2e-2ba05f06b2c5")
+		)
+		(pin "JP1_46"
+			(uuid "0d8ec8b6-16cf-4b37-aafd-d0f7a5e2876c")
+		)
+		(pin "JP3_5"
+			(uuid "d85e1d6d-aed1-481b-b4aa-115a6b1ff63e")
+		)
+		(pin "JP2_51"
+			(uuid "5a6795ab-3035-4560-b32f-644a65ca28b3")
+		)
+		(pin "JP2_9"
+			(uuid "5381f4c6-63ce-4e32-b76a-ecea3bfcf6e2")
+		)
+		(pin "JP3_22"
+			(uuid "9169bebd-c04e-403f-b92e-843451d3da07")
+		)
+		(pin "JP2_61"
+			(uuid "4919e883-1692-4d80-a8d0-8983f9a6988d")
+		)
+		(pin "JP3_17"
+			(uuid "93d41dd6-1a82-4bc4-baa2-e0e35ef3ffec")
+		)
+		(pin "JP2_50"
+			(uuid "84048fea-0cef-490f-bd16-118bf648e57a")
+		)
+		(pin "JP2_97"
+			(uuid "8dadf600-5679-41a3-85d9-d92aa03b5210")
+		)
+		(pin "JP2_81"
+			(uuid "8cd0570c-153a-44b5-b238-c5fff3c89991")
+		)
+		(pin "JP2_88"
+			(uuid "4c851c1c-8347-44fb-a5f2-e4d778cd57de")
+		)
+		(pin "JP1_72"
+			(uuid "eaa204b2-7fc0-469d-a149-9161cfc452b6")
+		)
+		(pin "JP2_8"
+			(uuid "630f4547-2e7e-43dc-9982-193dc8730c79")
+		)
+		(pin "JP2_49"
+			(uuid "9f3493dd-a1f1-49f3-83ab-dd28ed60f7b5")
+		)
+		(pin "JP1_78"
+			(uuid "cbccc2e9-1278-4e9d-8f9e-c88c7ea42b68")
+		)
+		(pin "JP2_62"
+			(uuid "fde86d72-42c4-4602-a9f3-a76dac71bd2c")
+		)
+		(pin "JP3_9"
+			(uuid "503c1d70-c4d6-4416-ac11-5bbaef2635a6")
+		)
+		(pin "JP1_76"
+			(uuid "086ba1e4-0879-42b7-b1c9-74d5b7acc801")
+		)
+		(pin "JP1_90"
+			(uuid "14212272-700c-47dd-ba2c-faa9c1a68c7a")
+		)
+		(pin "JP2_68"
+			(uuid "5c78f04a-2df1-44dc-a024-9eea6eea4701")
+		)
+		(pin "JP1_49"
+			(uuid "2f005138-fce1-40f6-9725-a3e1cd683f3e")
+		)
+		(pin "JP2_38"
+			(uuid "976b4ad3-da95-4567-85a7-30e44629810b")
+		)
+		(pin "JP1_45"
+			(uuid "4f077658-ec1b-4da2-960a-57da5fc75a89")
+		)
+		(pin "JP1_100"
+			(uuid "090038c4-2fe2-4c6d-8477-56ff63ed2539")
+		)
+		(pin "JP2_58"
+			(uuid "4432f65f-350c-4861-aabb-336695f80c41")
+		)
+		(pin "JP1_36"
+			(uuid "b4457e96-92f9-48ee-9946-2f134e3e29f0")
+		)
+		(pin "JP1_37"
+			(uuid "e2bb602f-64f5-4399-87b3-4e73d2ae3e6a")
+		)
+		(pin "JP2_40"
+			(uuid "3f8974c7-5a33-4b75-97e1-69c7d38bc0d8")
+		)
+		(pin "JP2_79"
+			(uuid "4e381daa-d8ed-49a3-9e4d-62d02f9a92fd")
+		)
+		(pin "JP2_100"
+			(uuid "9d2aae0c-65ea-4c91-a9ca-25051396a37c")
+		)
+		(pin "JP2_14"
+			(uuid "05c12470-d6bc-4ac8-adf1-529c999d577b")
+		)
+		(pin "JP2_2"
+			(uuid "70c47f84-5326-4ca3-8f32-06a1363eff05")
+		)
+		(pin "JP3_23"
+			(uuid "51811508-75a9-4f4a-b797-a7b45dc2693a")
+		)
+		(pin "JP2_52"
+			(uuid "3e15f2cd-284a-4d09-8f27-9bb7fc6f12f7")
+		)
+		(pin "JP1_98"
+			(uuid "da0a9590-4b0a-4f76-a0a7-3e2fb008f46a")
+		)
+		(pin "JP2_42"
+			(uuid "3da2e888-597b-46aa-acd7-d8467ca30670")
+		)
+		(pin "JP3_10"
+			(uuid "d2887d14-816f-479e-ab7a-61f3cff58470")
+		)
+		(pin "JP1_33"
+			(uuid "b0db15ee-3bf9-46fe-a93f-8f9dfd633663")
+		)
+		(pin "JP1_82"
+			(uuid "8cdd0d50-57a0-45ae-ab01-94d3f6a57c6d")
+		)
+		(pin "JP2_46"
+			(uuid "35695285-8b61-44c3-bfa9-e6cb59bdb8a6")
+		)
+		(pin "JP3_6"
+			(uuid "04952523-8143-4fa1-8b56-fd296fa913a5")
+		)
+		(pin "JP2_4"
+			(uuid "a7c117a3-0386-4e50-865f-618959fcb8c7")
+		)
+		(pin "JP1_41"
+			(uuid "45006719-f781-4c5b-afa1-1fad07125d64")
+		)
+		(pin "JP1_89"
+			(uuid "c063cff7-d551-4797-bf61-a370b7685242")
+		)
+		(pin "JP1_48"
+			(uuid "c3f0da8d-7880-4c99-ae2d-ab33bb07c4f7")
+		)
+		(pin "JP1_59"
+			(uuid "1ba74d84-2ddd-426b-ac1a-5d5c763d3610")
+		)
+		(pin "JP1_93"
+			(uuid "d143664d-774f-4dd1-867a-4f775314965f")
+		)
+		(pin "JP2_31"
+			(uuid "17a7b538-daff-4808-86c7-c63ce9626682")
+		)
+		(pin "JP1_63"
+			(uuid "a8f7509d-15cf-4fae-8356-fac8f4715b82")
+		)
+		(pin "JP1_91"
+			(uuid "d4d50cc8-750c-4ce3-b560-42c29d1e40a2")
+		)
+		(pin "JP2_37"
+			(uuid "66283c3d-0099-4eae-9a25-c2706e2cf8ae")
+		)
+		(pin "JP1_62"
+			(uuid "788caf9a-8eb3-4a09-b8a8-9c572231432a")
+		)
+		(pin "JP1_17"
+			(uuid "9cedf674-6536-4084-80af-ced990d39401")
+		)
+		(pin "JP2_85"
+			(uuid "e92677b1-80d5-4bd9-a137-79c3cea58bc2")
+		)
+		(pin "JP1_85"
+			(uuid "404e03bb-dd5c-4053-ae5d-3a097ef1cc9d")
+		)
+		(pin "JP1_99"
+			(uuid "d1defcdf-1b41-4303-a3bf-e6100078aa47")
+		)
+		(pin "JP2_78"
+			(uuid "c9263681-b984-46da-9c5e-2624fca7c455")
+		)
+		(pin "JP3_11"
+			(uuid "e5321207-4e06-48af-aa1d-95cdb308c26e")
+		)
+		(pin "JP2_56"
+			(uuid "accb4f31-3581-49f0-93f9-3b68d714ef15")
+		)
+		(pin "JP1_35"
+			(uuid "56f7076c-8637-4c40-85cb-f1b45db0961e")
+		)
+		(pin "JP2_60"
+			(uuid "3751b7d3-1208-4499-be6c-677f15964feb")
+		)
+		(pin "JP1_11"
+			(uuid "a6639d22-663a-45ec-bc7e-f69e602a96cc")
+		)
+		(pin "JP1_74"
+			(uuid "2d4399ba-fa88-49de-97c2-60e6f36b48c3")
+		)
+		(pin "JP1_13"
+			(uuid "d55d23b0-0f60-40c8-a9e3-7e23b6c9129d")
+		)
+		(pin "JP3_8"
+			(uuid "00d1ac86-78ce-45be-a8ba-4f6c13407779")
+		)
+		(pin "JP1_9"
+			(uuid "1a447af8-5d4a-40cf-81d2-1359ab21ffad")
+		)
+		(pin "JP3_1"
+			(uuid "5b5e3c47-66f9-4ad6-a659-e0d98f8ef8e9")
+		)
+		(pin "JP2_99"
+			(uuid "6c058f67-650a-4322-bf60-d6600641c1e4")
+		)
+		(pin "JP1_15"
+			(uuid "825d61b2-fd8d-485b-9ccc-c854f52cada6")
+		)
+		(pin "JP1_39"
+			(uuid "1d435311-5447-4772-b481-964c8e022b32")
+		)
+		(pin "JP1_66"
+			(uuid "aca9a14b-79cd-48e2-a926-3e18b12332cf")
+		)
+		(pin "JP2_67"
+			(uuid "2cfca7b5-8566-4d3c-bb4e-cc5e47421c3a")
+		)
+		(pin "JP1_58"
+			(uuid "f0c81d6d-be1b-443e-9c2c-10726ecdb9cb")
+		)
+		(pin "JP1_21"
+			(uuid "2b7046cb-0456-4049-949e-4e3e849d8718")
+		)
+		(pin "JP1_34"
+			(uuid "4636d5d2-1262-43f2-b651-2f8c8ac64d34")
+		)
+		(pin "JP1_67"
+			(uuid "e0143d08-4a33-4bb4-8d13-1518619e126c")
+		)
+		(pin "JP1_53"
+			(uuid "bdce9595-8481-4f53-a72d-0050e456295f")
+		)
+		(pin "JP1_40"
+			(uuid "c7784dd6-6987-4396-ac4a-3152046f8cd8")
+		)
+		(pin "JP2_64"
+			(uuid "087ad73d-e353-47fc-b74b-5a1bc9fb74fe")
+		)
+		(pin "JP3_21"
+			(uuid "6c506551-626c-45b2-b249-bebef77ff178")
+		)
+		(pin "JP2_7"
+			(uuid "9eb19216-1afe-4c9b-a062-d8468b143665")
+		)
+		(pin "JP1_79"
+			(uuid "1ccda7a9-a6b9-4871-80d2-cdb0e90418b3")
+		)
+		(pin "JP1_31"
+			(uuid "47fde21a-ccd7-4192-b5ea-72558fbc1986")
+		)
+		(pin "JP1_4"
+			(uuid "07e26879-0414-42d0-8ac6-3cc1eabea921")
+		)
+		(pin "JP1_20"
+			(uuid "38cb2bd0-6057-427f-a0b6-5aa3e9b1cbc6")
+		)
+		(pin "JP2_29"
+			(uuid "de0f3808-1d74-4c0e-b4a5-476b6c163dc7")
+		)
+		(pin "JP2_90"
+			(uuid "3fe55b12-5bbe-46d6-a8b1-6d322d2effa9")
+		)
+		(pin "JP2_73"
+			(uuid "f79d7acc-5057-45c3-b3cc-4cc9eb9dad0c")
+		)
+		(pin "JP2_24"
+			(uuid "80b05126-9e8a-4ad6-b727-64c2556fb352")
+		)
+		(pin "JP2_63"
+			(uuid "df5f7713-3c60-4155-a04e-9abc632488f5")
+		)
+		(pin "JP2_3"
+			(uuid "228e9700-81b4-4000-a9f0-d7019e7ec70e")
+		)
+		(pin "JP1_44"
+			(uuid "77a665fd-5fc8-49ff-aa03-09d862fa9b65")
+		)
+		(pin "JP1_7"
+			(uuid "7914a79a-56cf-43bb-ba4e-921d2f42a2fe")
+		)
+		(pin "JP1_5"
+			(uuid "bb30a53e-9eab-4e14-b4ff-d21df426bdac")
+		)
+		(pin "JP3_19"
+			(uuid "684aafa6-b8e7-40e8-a888-36ecbe0ecc7c")
+		)
+		(pin "JP1_3"
+			(uuid "d62e60e6-abb1-4c83-b3ed-09130ab0c073")
+		)
+		(pin "JP3_13"
+			(uuid "c74d8d01-41ba-4ff9-bc5c-e3eeb9486696")
+		)
+		(pin "JP1_65"
+			(uuid "96e7c57a-c45b-4d8f-a67a-3db8ef77f316")
+		)
+		(pin "JP1_57"
+			(uuid "ffa3d1d5-ef18-4a2e-bf0e-654b6c58fcab")
+		)
+		(pin "JP2_26"
+			(uuid "c23e4552-3085-4c81-b7cd-db75b88815f6")
+		)
+		(pin "JP1_87"
+			(uuid "9dc5c7e1-ddf3-4bd2-bb41-5ad76fd83972")
+		)
+		(pin "JP2_15"
+			(uuid "e7eb8120-8d17-40f5-86ec-b83f17204a8f")
+		)
+		(pin "JP2_43"
+			(uuid "64927499-8441-4f33-8bd4-1e65e50bff59")
+		)
+		(pin "JP2_33"
+			(uuid "de9490c1-23fb-4202-84d4-2bb3bca5a293")
+		)
+		(pin "JP2_25"
+			(uuid "e449e629-2b31-4b43-8ebf-ce1a809432fa")
+		)
+		(pin "JP1_18"
+			(uuid "3df7e09d-d601-4d77-b44f-7bfb6c872348")
+		)
+		(pin "JP1_56"
+			(uuid "10ce3f53-8681-419c-baf7-e153009e6fd7")
+		)
+		(pin "JP1_30"
+			(uuid "13d04686-1186-4be6-bb91-ad38360b806f")
+		)
+		(pin "JP1_95"
+			(uuid "f5a07979-1a02-4c34-a2f0-b33e143b1deb")
+		)
+		(pin "JP1_55"
+			(uuid "d8b1499e-5f01-4b06-9c31-04b2652142d0")
+		)
+		(pin "JP2_80"
+			(uuid "a9201a8a-d99e-4a91-9313-2a4363ea281f")
+		)
+		(pin "JP1_28"
+			(uuid "24cd750c-e09c-4533-a4ab-a366f5e0c3eb")
+		)
+		(pin "JP1_12"
+			(uuid "d6fb3670-6ff4-48e5-8ea0-838b5d9ddcef")
+		)
+		(pin "JP2_11"
+			(uuid "860e3942-c87d-4cb1-ad94-60fb09f6dfd3")
+		)
+		(pin "JP1_38"
+			(uuid "52360240-65a8-4625-b8f8-26847c995d96")
+		)
+		(pin "JP1_51"
+			(uuid "6880c6ea-dcb4-404d-ac0a-61fec15a7464")
+		)
+		(pin "JP2_53"
+			(uuid "9c7a8e31-efe0-4741-bc03-c44c3a9f6c1a")
+		)
+		(pin "JP2_91"
+			(uuid "6d19d8cd-5c2c-4f67-bf84-3e57cb614b64")
+		)
+		(pin "JP2_1"
+			(uuid "b851a027-0a49-4dc2-a2e3-ca908057472f")
+		)
+		(pin "JP2_92"
+			(uuid "8dccd094-df91-41db-8531-face0c109a3c")
+		)
+		(pin "JP2_27"
+			(uuid "1230e28f-0984-4ed7-beae-dc99b8cc7899")
+		)
+		(pin "JP1_14"
+			(uuid "a7e40628-85f1-457f-a9a6-83db6f49217e")
+		)
+		(pin "JP2_86"
+			(uuid "c83efc0d-92dc-4089-a9df-e4ffeb72f6a7")
+		)
+		(pin "JP2_55"
+			(uuid "71592209-5d4a-402e-a250-9e5e29935264")
+		)
+		(pin "JP1_24"
+			(uuid "bc6905e6-7968-40a8-9634-e08c28658270")
+		)
+		(pin "JP2_65"
+			(uuid "a0726120-a0bd-459d-87c1-6aaacb1a3251")
+		)
+		(pin "JP1_84"
+			(uuid "19590014-f942-4a26-901f-8b9ae9753c4c")
+		)
+		(pin "JP2_13"
+			(uuid "1c8534fb-74ad-4342-8272-e428e8e75e7e")
+		)
+		(pin "JP1_43"
+			(uuid "dc93b47f-3ecb-4389-9304-a90dc08223fe")
+		)
+		(pin "JP1_96"
+			(uuid "46f304da-dca2-4265-bb45-296d75f7a653")
+		)
+		(pin "JP1_92"
+			(uuid "23e5b332-8e2d-4cc6-beb6-37edb77bbd14")
+		)
+		(pin "JP2_94"
+			(uuid "5873acea-4964-42f3-b107-c87e349f8b4e")
+		)
+		(pin "JP2_48"
+			(uuid "b0e0922a-c57c-4efb-a565-8bb53ff6e739")
+		)
+		(pin "JP3_7"
+			(uuid "3ead4c66-3368-4567-9024-48f7cf27e2c1")
+		)
+		(pin "JP2_76"
+			(uuid "439d7aae-9c57-47f1-8aac-70e1cc2dca5c")
+		)
+		(pin "JP2_17"
+			(uuid "b024b7bc-222b-4197-8d28-67465a661348")
+		)
+		(pin "JP1_97"
+			(uuid "c642ac3a-270d-4f7d-88ec-a2145ef4c4ff")
+		)
+		(pin "JP1_16"
+			(uuid "9cfe8940-df60-4613-8d4a-4bc52da26aad")
+		)
+		(pin "JP1_29"
+			(uuid "3a141c66-c2f3-4a46-b515-0bea4add1fcf")
+		)
+		(pin "JP2_82"
+			(uuid "3af17174-f2c2-49d8-8c99-e567cfc24104")
+		)
+		(pin "JP2_39"
+			(uuid "075d0eb3-4e1e-49bb-b72e-1863e61cbfaf")
+		)
+		(pin "JP2_59"
+			(uuid "d7bd7757-5f09-4e68-93d4-318cdb2d1563")
+		)
+		(pin "JP1_19"
+			(uuid "3610e2a4-57ea-437a-9d00-ef12644beffc")
+		)
+		(pin "JP2_32"
+			(uuid "0e639df6-a500-4de6-81f0-5f0f044db787")
+		)
+		(pin "JP1_23"
+			(uuid "1c0d981c-ce2e-4d39-8fe0-12f8c34fd734")
+		)
+		(pin "JP2_77"
+			(uuid "cc251fcf-2bad-45f4-b9fd-aba094bd6b05")
+		)
+		(pin "JP3_15"
+			(uuid "866682e7-cc11-40a0-8cdf-98b9bd08f309")
+		)
+		(pin "JP1_1"
+			(uuid "50406eea-6e99-4e42-9082-a7523eea875f")
+		)
+		(pin "JP1_80"
+			(uuid "f4e325ad-4dbe-4c0b-95fe-b2003ef50f35")
+		)
+		(pin "JP1_27"
+			(uuid "9c0291b5-8c0e-4fa2-8085-bf392a96f7a3")
+		)
+		(pin "JP2_41"
+			(uuid "37795dd8-2184-47e6-bb98-4f8a9c147033")
+		)
+		(pin "JP2_98"
+			(uuid "093c2c74-4e3d-4cdd-b7da-f2086c0ae8e6")
+		)
+		(pin "JP1_47"
+			(uuid "33df566f-b84a-4c4d-b8cf-004b70d8b70b")
+		)
+		(pin "JP2_45"
+			(uuid "30088c05-3047-4b7b-aeb0-f77264edc1b7")
+		)
+		(pin "JP2_66"
+			(uuid "1c9ce1b5-a92b-431d-9440-55c6cf7ab8f0")
+		)
+		(pin "JP1_69"
+			(uuid "13595c95-a0be-45d3-9ad7-661d39c4f39c")
+		)
+		(pin "JP2_34"
+			(uuid "369f5bed-d34e-41fb-8812-ddea2c273cf7")
+		)
+		(pin "JP2_84"
+			(uuid "c4dd7fa4-a472-4347-a5d1-bfa03bd6ab2e")
+		)
+		(pin "JP2_93"
+			(uuid "92f2c5ae-4dbc-4027-b37f-871b5bfa57be")
+		)
+		(pin "JP2_22"
+			(uuid "3bd7ce5d-da19-46e2-8a41-4d7dc3543def")
+		)
+		(pin "JP2_89"
+			(uuid "686a1084-998c-4d87-8e1b-01bcdb327c85")
+		)
+		(pin "JP3_16"
+			(uuid "acd6d518-2461-4282-ad8e-bb8d3b46d38f")
+		)
+		(pin "JP3_2"
+			(uuid "f0964d79-913a-4919-879f-690c2476a368")
+		)
+		(pin "JP1_70"
+			(uuid "3f8dcdf4-8f67-4549-ab29-5c601e1b3414")
+		)
+		(pin "JP2_12"
+			(uuid "e2666344-22e5-4a6b-a7bb-89323aca5131")
+		)
+		(pin "JP2_16"
+			(uuid "3c8ba12b-ed03-493c-8632-5954cc2aa860")
+		)
+		(pin "JP1_81"
+			(uuid "e6bccc35-0f03-4323-bdfa-fa2ec24b62d8")
+		)
+		(pin "JP2_83"
+			(uuid "f66e0fcc-afde-43d1-911f-709c669c3e93")
+		)
+		(pin "JP2_28"
+			(uuid "2fbc1955-75c9-4fb6-a349-a8c220021be3")
+		)
+		(pin "JP2_35"
+			(uuid "e542bf62-2831-4078-aeaf-167938999397")
+		)
+		(pin "JP2_44"
+			(uuid "e0229d82-298d-4bd1-b1e2-f2dc9e00da40")
+		)
+		(pin "JP2_20"
+			(uuid "5f1a2e42-6edf-48dc-9ac8-e6723bf102ed")
+		)
+		(pin "JP1_8"
+			(uuid "986ab506-6b3e-4db5-8871-b3e31cd2ce17")
+		)
+		(pin "JP1_61"
+			(uuid "6f24e16f-ca6d-452b-a1c9-8b5dc86276cc")
+		)
+		(pin "JP2_72"
+			(uuid "03c58b21-ac5e-4d23-9ff0-f865b29b6d6f")
+		)
+		(pin "JP1_77"
+			(uuid "fffefcd4-e60e-414b-a277-9498a1ae31e6")
+		)
+		(pin "JP2_57"
+			(uuid "c208a002-fb39-4bb6-9cd8-5d9015945331")
+		)
+		(pin "JP2_71"
+			(uuid "7b6232e5-d0ff-4621-852e-c3e31f766647")
+		)
+		(pin "JP2_21"
+			(uuid "a43d67da-78df-4592-aa40-2411f49e263d")
+		)
+		(pin "JP1_22"
+			(uuid "8ad9391b-64f5-41d6-84c3-1c85d6dcea30")
+		)
+		(pin "JP1_88"
+			(uuid "fcb1b76e-8f7a-4101-b0fa-9bc49470f2e1")
+		)
+		(pin "JP2_96"
+			(uuid "d2eee267-0d96-4b90-8fc9-9782e4ef2252")
+		)
+		(pin "JP2_47"
+			(uuid "d3d1dfcf-cdc2-4aef-a192-0798fcfe774d")
+		)
+		(pin "JP1_10"
+			(uuid "9907972e-1111-4152-9050-1ec1733f1a76")
+		)
+		(pin "JP1_86"
+			(uuid "45030362-3bc3-498d-ad38-f8dfaff51403")
+		)
+		(pin "JP1_42"
+			(uuid "91abb281-2591-416d-b60d-8c60e635ba2b")
+		)
+		(pin "JP2_10"
+			(uuid "d2ce8918-4410-4424-bdac-3b28e3466d90")
+		)
+		(pin "JP2_6"
+			(uuid "c7c526ab-8755-4804-a473-47dd3bdd8b01")
+		)
+		(instances
+			(project "PiTTY"
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f/892c3491-aa3a-45f3-9012-b55ce4b202e9"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

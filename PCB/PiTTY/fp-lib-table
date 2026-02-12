@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ORANGE_PI_CM4")(type "KiCad")(uri "/home/usurper/Documents/Personal/PiTTY/Assets/PCB/OCM4/ORANGE_PI_CM4")(options "")(descr ""))
+)

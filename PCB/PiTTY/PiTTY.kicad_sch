@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "078cc087-ec16-4a9b-b5a7-b87225c3061f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 107.95 247.65)
+		(size 67.31 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "408117e8-d2ce-4fc6-b91d-e64b7fccf086")
+		(property "Sheetname" "Hirose JP2"
+			(at 107.95 246.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4_jp2.kicad_sch"
+			(at 107.95 283.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PiTTY"
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 3.81 231.14)
+		(size 68.58 54.61)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "892c3491-aa3a-45f3-9012-b55ce4b202e9")
+		(property "Sheetname" "Hirose JP1"
+			(at 3.81 230.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4_jp1.kicad_sch"
+			(at 3.81 286.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PiTTY"
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 247.65)
+		(size 59.69 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b52de60f-74d5-4a1a-9fb2-d14c18bd9172")
+		(property "Sheetname" "CM4 24"
+			(at 199.39 246.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4_24.kicad_sch"
+			(at 199.39 283.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PiTTY"
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 270.51 247.65)
+		(size 48.26 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6803703-222b-4954-aa45-14bbfc6082c9")
+		(property "Sheetname" "IO and Power"
+			(at 270.51 246.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_io.kicad_sch"
+			(at 270.51 282.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PiTTY"
+				(path "/078cc087-ec16-4a9b-b5a7-b87225c3061f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
