@@ -1,35 +1,24 @@
-# KiCad temporary and local preference files
+# --- KiCad specific ---
 *.kicad_prl
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.lck
 *~
 _autosave-*
-*.lck
 
-# KiCad Footprint and Symbol caches (Highly recommended to ignore)
+# Cache files (The 3.9MB file in your list)
 fp-info-cache
 fp-lib-table.backup
 sym-lib-table.backup
 
-# ERC and DRC report files
+# Manufacturing/Reports
 *.rpt
-
-# Output files (Gerbers, Drill files, etc.)
 *.gbr
 *.drl
-*.pos
-*.csv
 
-# Optional: KiCad's internal backup folder
-Main-backups/
+# Project Backups (The Main-backups folder)
+*-backups/
 
-# BLENDER
-# Blender backup files
-*.blend1
-*.blend2
-*.blend3
-*.blend4
-*.blend5
-# Blender autosave/temp files
+# --- Blender specific ---
+*.blend[0-9]
 *.blend@
-*.publisher
