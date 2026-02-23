@@ -1,0 +1,190 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dea5ac8e-3e86-4300-9e2e-2676721051d5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 73.66 218.44)
+		(size 72.39 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "090be83b-33de-45f1-8723-4cbe79db31ea")
+		(property "Sheetname" "JP2"
+			(at 73.66 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jp2.kicad_sch"
+			(at 73.66 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/dea5ac8e-3e86-4300-9e2e-2676721051d5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 218.44)
+		(size 73.66 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57741c9e-edd5-4d78-9bed-1b543f87d51f")
+		(property "Sheetname" "Power"
+			(at 223.52 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 223.52 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 223.52 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/dea5ac8e-3e86-4300-9e2e-2676721051d5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 218.44)
+		(size 72.39 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "78725cc8-0e28-4550-8a20-fc5839a751bc")
+		(property "Sheetname" "JP1"
+			(at 0 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jp1.kicad_sch"
+			(at 0 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/dea5ac8e-3e86-4300-9e2e-2676721051d5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 218.44)
+		(size 72.39 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9fbc2fb-bc04-42a5-bb0d-e463d9230552")
+		(property "Sheetname" "JP24"
+			(at 149.86 217.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jp24.kicad_sch"
+			(at 149.86 259.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/dea5ac8e-3e86-4300-9e2e-2676721051d5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
