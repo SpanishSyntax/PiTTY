@@ -4254,7 +4254,7 @@
 	)
 	(symbol
 		(lib_id "OCM4:ORANGE_PI_CM4")
-		(at 156.21 96.52 0)
+		(at 231.14 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4263,7 +4263,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d02551c-40e5-4e2b-a8f4-ad81c53347c6")
 		(property "Reference" "U1"
-			(at 156.21 25.4 0)
+			(at 231.14 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4271,7 @@
 			)
 		)
 		(property "Value" "ORANGE_PI_CM4"
-			(at 156.21 27.94 0)
+			(at 231.14 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4279,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:OCM4"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4307,7 @@
 			)
 		)
 		(property "MF" "Orange Pi"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4317,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4327,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4337,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4347,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=eda"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4357,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4367,7 @@
 			)
 		)
 		(property "PARTREV" "v1.2"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4377,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/Orange%20Pi%20CM4/Orange+Pi/view-part/?ref=snap"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4387,7 @@
 			)
 		)
 		(property "MP" "Orange Pi CM4"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4397,7 @@
 			)
 		)
 		(property "Description_1" "Orange Pi Compute Module 4"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4407,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4417,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Orange Pi"
-			(at 156.21 96.52 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
