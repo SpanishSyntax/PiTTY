@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 73.66 218.44)
-		(size 72.39 40.64)
+		(at 89.535 202.565)
+		(size 40.64 72.39)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "090be83b-33de-45f1-8723-4cbe79db31ea")
 		(property "Sheetname" "JP2"
-			(at 73.66 217.7284 0)
+			(at 89.535 201.8534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +31,252 @@
 			)
 		)
 		(property "Sheetfile" "jp2.kicad_sch"
-			(at 73.66 259.6646 0)
+			(at 89.535 275.5396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HDMI0_CEC" bidirectional
+			(at 130.175 205.105 0)
+			(uuid "1f40973f-2e88-410d-a80e-b83e920b9222")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_CEC_IN" bidirectional
+			(at 130.175 207.645 0)
+			(uuid "9af56694-5efd-4dba-a3e8-78a268af15f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_CLK_IN_N" output
+			(at 130.175 210.185 0)
+			(uuid "893dc298-819e-4872-9945-0cc6521ab7e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_CLK_IN_P" output
+			(at 130.175 212.725 0)
+			(uuid "fbafc3dd-c638-4b3c-aebc-65cac2da2ab6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_CLK_N" output
+			(at 130.175 215.265 0)
+			(uuid "8e0d2bac-f541-4248-8f5d-abfacc708bce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_CLK_P" output
+			(at 130.175 217.805 0)
+			(uuid "e026896d-361e-45ef-978d-355c20dc189b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D0_IN_N" output
+			(at 130.175 220.345 0)
+			(uuid "42985724-4e2b-49e2-ae22-3da5e4a396e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D0_IN_P" output
+			(at 130.175 222.885 0)
+			(uuid "a42d25ed-5e1e-4ae8-9a1a-6262ee2786b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D0_N" output
+			(at 130.175 225.425 0)
+			(uuid "d07dcd13-04f9-423b-bc1a-eb01491c2d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D0_P" output
+			(at 130.175 227.965 0)
+			(uuid "9ede2be8-e577-4089-8509-709ce018d91f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D1_IN_N" output
+			(at 130.175 230.505 0)
+			(uuid "c9c8083f-793f-468b-b998-72ecc96c11eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D1_IN_P" output
+			(at 130.175 233.045 0)
+			(uuid "bb4901b3-7d68-4f4e-8ec9-85a5bffe1341")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D1_N" output
+			(at 130.175 235.585 0)
+			(uuid "734efd43-e35d-4515-bc1f-8954d4703cbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D1_P" output
+			(at 130.175 238.125 0)
+			(uuid "851516e6-00a6-442b-afea-f253d7084716")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D2_IN_N" output
+			(at 130.175 240.665 0)
+			(uuid "628788d3-d09a-44df-91d3-2cc32243205b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D2_IN_P" output
+			(at 130.175 243.205 0)
+			(uuid "6b937606-0103-492b-a2ee-acf00a9df770")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D2_N" output
+			(at 130.175 245.745 0)
+			(uuid "8d8c07d1-8881-4a2d-bca9-90fcab542cd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_D2_P" output
+			(at 130.175 248.285 0)
+			(uuid "56552822-d84b-45e5-89da-22a08fe5f2bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_HPD" input
+			(at 130.175 250.825 0)
+			(uuid "f7e13e23-0fe2-4ea9-be0a-91d98a88e4ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_HPD_IN" input
+			(at 130.175 253.365 0)
+			(uuid "936d9780-0f02-407e-b5ad-76056d6a7578")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_SCL" bidirectional
+			(at 130.175 255.905 0)
+			(uuid "52ffef74-afef-422b-b29f-bc10365f0f09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_SCL_IN" bidirectional
+			(at 130.175 258.445 0)
+			(uuid "0609662b-e813-41f3-ac85-626b40ce87a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_SDA" bidirectional
+			(at 130.175 260.985 0)
+			(uuid "bce4dcc0-789f-4ca5-b11e-175e538bfc45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0_SDA_IN" bidirectional
+			(at 130.175 263.525 0)
+			(uuid "275bfd12-626c-48db-8d37-d6533ddb2763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -87,6 +327,56 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "EN" input
+			(at 236.22 218.44 90)
+			(uuid "6114b278-9cf1-44b0-98e7-7a7f75cc5a8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" input
+			(at 245.11 218.44 90)
+			(uuid "91bd40c4-e60c-4b57-9d40-b70bd8bbc709")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 255.27 218.44 90)
+			(uuid "24570fce-1e93-4764-8f90-61b833f2c13b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 265.43 218.44 90)
+			(uuid "e2af7d3f-f8dc-4121-a44b-8d141d3534df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT" input
+			(at 274.32 218.44 90)
+			(uuid "a2a854f6-3d63-40a1-891e-10fc6c208a75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
