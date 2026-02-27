@@ -498,10 +498,16 @@
         "track_width": 0.22
       },
       {
-        "name": "Rounded",
-        "pcb_color": "rgb(255, 126, 0)",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 1.0,
+        "name": "Power_4A",
+        "pcb_color": "rgb(13, 0, 255)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -513,6 +519,10 @@
       {
         "netclass": "HDMI",
         "pattern": "*HDMI0_*"
+      },
+      {
+        "netclass": "Power_4A",
+        "pattern": "*POWER_*"
       }
     ]
   },
